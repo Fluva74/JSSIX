@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(#b57070, #3b44a2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel img {
+  border: 5px solid #ecb45f;
+  border-radius: 10px;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 8px solid white;
+}
+
+.item {
+  position: absolute;
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+button {
+  position: absolute;
+  margin-top: -1rem;
+  padding: 0.2rem 0.8rem;
+  background-color: #ddb982;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: #44321c;
+  font-weight: 700;
+  -webkit-box-shadow: 3px 3px 18px 3px rgba(79, 58, 149, 0.299);
+          box-shadow: 3px 3px 18px 3px rgba(79, 58, 149, 0.299);
+}
+
+.prev {
+  margin-left: -28.3rem;
+}
+
+.next {
+  margin-left: -0.2rem;
+}
